@@ -66,6 +66,8 @@ def main():
         exit(1)
 
     print("Mainloop started without any problems")
+    print("\n")
+    print("Now translating serial data to joystick controls\nDo not close the window unless you want to stop the dirver or unplugged your arduino")
 
     while _running:
         startbyte = ser.read(1)
