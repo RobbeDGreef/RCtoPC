@@ -13,7 +13,7 @@ BYTESIZE = 8
 
 # Connection settings
 THROTTLE_AXIS = 'Y'
-STEERING_AXIX = 'X'
+STEERING_AXIS = 'X'
 
 # RC Receiver settings
 THROTTLE_MIN = 1090
