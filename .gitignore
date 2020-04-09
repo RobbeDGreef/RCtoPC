@@ -1,0 +1,5 @@
+# folders to exclude
+extra
+ArduinoMicro
+ArduinoUno\__pycache__
+instructables
