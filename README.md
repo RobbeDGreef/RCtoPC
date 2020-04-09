@@ -16,6 +16,19 @@ work out of the box once I write the sketch and you install it.
 Until then you could still use the same setup as this, just with
 the MICRO instead of the UNO.
 
+## Table of contents
+
+* [System specifications](#system-specifications)
+* [How it works](#how-it-works)
+* [Get it running](#get-it-running)
+	* [What you'll need](#what-you'll-need)
+	* [Build process](#build-process)
+* [Configuration](#configuration)
+* [I'm finished, now how do I use it](#i'm-done-reading-and-building,-now-how-do-i-use-this-in-game)
+* [What else is coming?](#what-else-is-comming?)
+* [Communicate with me](#communicate-with-me)
+* [Development updates](#development-updates)
+
 ## System specifications
 
 This project is currently tested on a windows 10 64 bit pc
@@ -126,7 +139,15 @@ that sound great?
 Add multiple channels to make it possible for drone
 or airplane pilots to use this software.
 
-## Development updates:
+## Communicate with me
+
+If you have any questions about this project, any other project
+of mine, or want to see something else implemented.
+
+You can contact me via my email: robbedegreef@gmail.com
+
+
+## Development updates
 
 ### Update 0.1
 
