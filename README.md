@@ -170,7 +170,7 @@ constantly emulate a joystick in user space or write a
 windows kernel driver. I think I am going for the second
 option because the first will probably have terrible latency.
 
-## Update 0.2
+### Update 0.2
 
 Got it working :) I haven't tested it in game yet so I don't
 know if the latency is good but it seems to work fine and snappy.
@@ -183,3 +183,10 @@ I do however right now only support steering and throttle axises
 so I'll probably make an update for the software that can support
 up to multiple channels and thus making this software work for drone
 and airplane drivers too.
+
+### Update 0.3
+
+Tested the Arduino UNO system in game and everything works perfectly.
+I didn't even detect any latency so it works better then expected. Now
+I also received my Arduino Micro in the mail so a PnP version is in the 
+making.
