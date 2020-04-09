@@ -8,6 +8,14 @@ his or her favorite RC transmitter and play games on
 their pc with it. This eliminates the need for 
 external RC dongles that cost a lot. 
 
+**IMPORTANT: if you are thinking of buying an arduino uno 
+for driving with your rc transmitter on your computer instead
+of buying a RX dongle don't buy an arduino UNO. Buy an arduino
+MICRO.** The Arduino Micro will be a lot less hassle and will
+work out of the box once I write the sketch and you install it.
+Until then you could still use the same setup as this, just with
+the MICRO instead of the UNO.
+
 ## System specifications
 
 This project is currently tested on a windows 10 64 bit pc
@@ -15,15 +23,14 @@ but it probably works on regular x86 pc's too. The vJoy
 driver that this project uses works from windows XP and up
 so I guess it works on older pc's as well.
 
-I would write this for Linux and mac as well but
-the thing is I don't think anyone actually needs that
-if you do, just open a issue, ask for it and I'll look 
-into it.
+I would write this for Linux and mac as well but I don't
+think anyone actually needs that. If you do, just open a
+github issue, ask for it and I'll look into it.
 
 ## How it works
 
 The Arduino uno can't normally be used to emulate a HID
-device such as a joystick or a keyboard. What it can do
+device such as a joysticks or a keyboards. What it can do
 is work as a serial device. So I simply wrote an Arduino
 sketch that sends the [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation) value it reads
 over the specified pins to the pc via a serial connection.
@@ -73,22 +80,48 @@ easier for you.
 
 This project can be configured in the python
 config file (config.py) and in the top of the
-arduino sketch. Only change stuff if you know 
-what you are doing.
+Arduino sketch.
+I'd recommend to only change stuff if you know 
+what you are doing but there are some things
+that might be worth looking into.
 
-## I'm done now how do I use it in game
+The config.py file specifies the 
+THROTTLE_MIN, THROTTLE_MAX, STEERING_MIN
+and STEERING_MAX constants.
+I figured those values out by some testing. 
+To make it easy for you all I wrote a third python
+script that shows you the values that are being sent
+over the Arduino in real time. So if you think your 
+throttle and/or steering values differ from mine. 
+Run the script test-values.bat (this will automatically
+start the valuetest.py script for you). And note the different
+values and change them in the config file.
+
+**Please know that changing your THROTTLE_MAX won't necessarily make you driver faster it might even make you slower**
+You will drive slower if you set this value higher then the
+value your transmitter actually sends out because if you were
+to push the throttle back completely the python script will
+think your max value still isn't reached and it won't actually
+push the joystick value all the way up to the max.
+
+The same goes for steering.
+
+
+## I'm done reading and building, now how do I use this in game
 
 Pretty simple. Locate the run.bat file, it will 
 launch the python script for you. Now just leave
 that black command prompt open in the background.
 It is constantly translating serial to joystick.
 Just run any program you want where you can you 
-use a joystick and select the vJoy joystick :) 
+use a joystick and select the vJoy joystick :)
 
 ## What else is coming?
 
 I just received my Arduino Micro so now I am also
-working on a plug an play version of this.
+working on a plug an play version of this. So no
+driver installs and programs would be needed. Doesn't
+that sound great?
 
 Add multiple channels to make it possible for drone
 or airplane pilots to use this software.
