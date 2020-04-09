@@ -21,11 +21,11 @@ the MICRO instead of the UNO.
 * [System specifications](#system-specifications)
 * [How it works](#how-it-works)
 * [Get it running](#get-it-running)
-	* [What you'll need](#what-you'll-need)
+	* [What you'll need](#what-youll-need)
 	* [Build process](#build-process)
 * [Configuration](#configuration)
-* [I'm finished, now how do I use it](#i'm-done-reading-and-building,-now-how-do-i-use-this-in-game)
-* [What else is coming?](#what-else-is-comming?)
+* [I'm finished, now how do I use it](#im-done-reading-and-building-now-how-do-i-use-this-in-game)
+* [What else is on the agenda](#what-else-is-on-the-agenda)
 * [Communicate with me](#communicate-with-me)
 * [Development updates](#development-updates)
 
@@ -129,7 +129,7 @@ It is constantly translating serial to joystick.
 Just run any program you want where you can you 
 use a joystick and select the vJoy joystick :)
 
-## What else is coming?
+## What else is on the agenda
 
 I just received my Arduino Micro so now I am also
 working on a plug an play version of this. So no
@@ -142,10 +142,14 @@ or airplane pilots to use this software.
 ## Communicate with me
 
 If you have any questions about this project, any other project
-of mine, or want to see something else implemented.
+of mine, or want to see something else implemented don't 
+hesitate to contact me
 
-You can contact me via my email: robbedegreef@gmail.com
+my email: robbedegreef@gmail.com
 
+And if you like what I'm doing here you can always
+leave a star on the repository to let me know you like
+it ;)
 
 ## Development updates
 
