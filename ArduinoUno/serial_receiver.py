@@ -25,8 +25,7 @@ def set_axisY(joystick, value):
     joystick.data.wAxisY = value
 
 
-def main():
-    # First setup the serial connection
+def open_serial():
     try:
         ser = serial.Serial(port=CONNECTIONPORT, baudrate=BAUDRATE, bytesize=BYTESIZE, parity=PARITY, stopbits=STOPBITS)
     except serial.SerialException as e:
@@ -35,6 +34,12 @@ def main():
         print("Error message:\n", e)
         exit(1)
 
+    return ser
+
+
+def main():
+    # First setup the serial connection
+    ser = open_serial()
     print("Serial connected to ", CONNECTIONPORT)
 
     # Then create the joystick
