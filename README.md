@@ -6,7 +6,11 @@ This project creates the possibility for everyone with
 an Arduino (currently only tested on uno) to use
 his or her favorite RC transmitter and play games on
 their pc with it. This eliminates the need for 
-external RC dongles that cost a lot. 
+expensive external rc dongles. 
+
+The arduino system even has a higher controller sample
+rate than the normal dongle I used. :)
+(external dongle: 70-80 FPS, arduino dongle: 80-90 FPS) 
 
 **IMPORTANT: if you are thinking of buying an arduino uno 
 for driving with your rc transmitter on your computer instead
@@ -25,6 +29,7 @@ the MICRO instead of the UNO.
 	* [Build process](#build-process)
 * [Configuration](#configuration)
 * [I'm finished, now how do I use it](#im-done-reading-and-building-now-how-do-i-use-this-in-game)
+* [Known bugs](#known-bugs)
 * [What else is on the agenda](#what-else-is-on-the-agenda)
 * [Communicate with me](#communicate-with-me)
 * [Development updates](#development-updates)
@@ -128,6 +133,15 @@ that black command prompt open in the background.
 It is constantly translating serial to joystick.
 Just run any program you want where you can you 
 use a joystick and select the vJoy joystick :)
+
+## Known bugs
+
+- vJoy driver stops receiving input after a while
+...For some unknown reason after letting my pc sit here idle for some time
+...the vJoy driver just stops receiving input from anywhere. I don't know
+...why it happens and the only way I've been able to reproduce the bug is
+...by waiting. Currently the only fix I have found to work is rebooting the
+...computer.
 
 ## What else is on the agenda
 
