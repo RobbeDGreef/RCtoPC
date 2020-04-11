@@ -25,12 +25,12 @@ of buying a RX dongle DON'T, read**[what Arduino would be perfect for this proje
 * [How it works](#how-it-works)
 * [What Arduino to buy specifically for this project](#What-Arduino-to-buy-specifically-for-this-project)
 * [Get it running](#get-it-running)
-	*[Arduino UNO and other derivatives](#arduino-uno-and-other-derivatives)
+	* [Arduino UNO and other derivatives](#arduino-uno-and-other-derivatives)
 		* [What you'll need](#what-youll-need)
 		* [Build process](#build-process)
 		* [Configuration](#configuration)
 		* [I'm finished, now how do I use it](#im-done-reading-and-building-now-how-do-i-use-this-in-game)
-	*[Arduino MICRO and other USB emulation Arduinos](#arduino-micro-and-other-usb-emulation-arduinos)
+	* [Arduino MICRO and other USB emulation Arduinos](#arduino-micro-and-other-usb-emulation-arduinos)
 		* [What you'll need](#what-youll-need)
 		* [Build process](#build-process)
 		* [Configuration](#configuration)
@@ -205,7 +205,7 @@ when you connect up the pins of the receiver to the Arduino.
 I know I haven't made a separate instructable for this part of the
 project but here you see a photo of an Arduino micro all connected up.
 
-![Arduino Micro all connected up]()
+![Arduino Micro all connected up](https://github.com/RobbeDGreef/RCtoPC/raw/master/extras/arduino_micro_connected.jpg)
 
 If you have any questions about how it should be wired up on your Arduino
 or really want me to make a separate instructable about it. [Just ask me](#communicate-with-me)
