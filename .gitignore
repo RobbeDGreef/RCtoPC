@@ -1,5 +1,7 @@
 # folders to exclude
 extra
-ArduinoMicro
+ArduinoMicro/customjoysticksystest
+ArduinoMicro/ARduinoRCDongle_inter
 instructables
 ArduinoUno/__pycache__
+.git
