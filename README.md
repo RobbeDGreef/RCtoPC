@@ -1,6 +1,6 @@
 # Arduino RC receiving dongle
 
-![RCtoPC logo](https://github.com/RobbeDGreef/RCtoPC/extras/RCtopclogo.png "RCtoPC logo")
+![RCtoPC logo](https://github.com/RobbeDGreef/RCtoPC/raw/master/extras/RCtopclogo.png "RCtoPC logo")
 
 ## Info
 
