@@ -120,7 +120,7 @@ Note that those last two can be installed by running the install-python-dependen
 
 And of course this repository.
 
-#### Build process of arduino uno
+#### Build process of the arduino uno
 
 So now that you have all the hardware and installed
 all the software. We can begin building this setup
@@ -134,7 +134,7 @@ your receiver.
 I wrote an [instructables article](https://www.instructables.com/id/RC-Receiver-to-Pc-With-Arduino/) to make it
 easier for you.
 
-#### Configuration of arduino uno
+#### Configuration of the arduino uno
 
 This project can be configured in the python
 config file (config.py) and in the top of the
@@ -195,7 +195,7 @@ That's it, easy right?
 
 The build process is pretty much the [same as before](https://www.instructables.com/id/RC-Receiver-to-Pc-With-Arduino/)
 only this time we upload a different sketch and 
-you need to [configure](#configuration) the project before uploading the sketch.
+you need to [configure](#configuration-of-the-arduino-mirco) the project before uploading the sketch.
 
 **Please note what pins are selected in the config.h file**
 when you connect up the pins of the receiver to the Arduino.
