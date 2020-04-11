@@ -24,14 +24,14 @@ of buying a RX dongle DON'T, read** [what Arduino would be perfect for this proj
 * [What Arduino to buy specifically for this project](#What-Arduino-to-buy-specifically-for-this-project)
 * [Get it running](#get-it-running)
 	* [Arduino UNO and other derivatives](#arduino-uno-and-other-derivatives)
-		* [What you'll need](#what-youll-need)
-		* [Build process](#build-process)
-		* [Configuration](#configuration)
+		* [What you'll need](#what-youll-need-for-arduino-uno-system)
+		* [Build process](#build-process-of-the-arduino-uno)
+		* [Configuration](#configuration-of-the-arduino-uno)
 		* [I'm finished, now how do I use it](#im-done-reading-and-building-now-how-do-i-use-this-in-game)
 	* [Arduino MICRO and other USB emulation Arduinos](#arduino-micro-and-other-usb-emulation-arduinos)
-		* [What you'll need](#what-youll-need)
-		* [Build process](#build-process)
-		* [Configuration](#configuration)
+		* [What you'll need](#what-youll-need-for-the-arduino-micro)
+		* [Build process](#build-process-of-the-arduino-micro)
+		* [Configuration](#configuration-of-the-arduino-micro)
 * [Known bugs](#known-bugs)
 * [What else is on the agenda](#what-else-is-on-the-agenda)
 * [Communicate with me](#communicate-with-me)
@@ -101,7 +101,7 @@ and if it isn't, [hit me up](#communicate-with-me) we'll look into it together.
 
 ### Arduino UNO and other derivatives
 
-#### What you'll need
+#### What you'll need for the arduino uno system
 
 The hardware you'll need for this system:
 - [Arduino](https://store.arduino.cc/arduino-uno-rev3)
@@ -120,7 +120,7 @@ Note that those last two can be installed by running the install-python-dependen
 
 And of course this repository.
 
-#### Build process
+#### Build process of arduino uno
 
 So now that you have all the hardware and installed
 all the software. We can begin building this setup
@@ -134,7 +134,7 @@ your receiver.
 I wrote an [instructables article](https://www.instructables.com/id/RC-Receiver-to-Pc-With-Arduino/) to make it
 easier for you.
 
-#### Configuration
+#### Configuration of arduino uno
 
 This project can be configured in the python
 config file (config.py) and in the top of the
@@ -176,7 +176,7 @@ use a joystick and select the vJoy joystick :)
 
 ### Arduino MICRO and other USB emulation Arduinos
 
-#### What you'll need
+#### What you'll need for the arduino micro
 
 The hardware you'll need for this system:
 - Arduino capable of USB HID emulation
@@ -191,7 +191,7 @@ And obviously this repository's code.
 
 That's it, easy right?
 
-#### Build process
+#### Build process of the arduino micro
 
 The build process is pretty much the [same as before](https://www.instructables.com/id/RC-Receiver-to-Pc-With-Arduino/)
 only this time we upload a different sketch and 
@@ -208,7 +208,7 @@ project but here you see a photo of an Arduino micro all connected up.
 If you have any questions about how it should be wired up on your Arduino
 or really want me to make a separate instructable about it. [Just ask me](#communicate-with-me)
 
-#### Configuration
+#### Configuration of the arduino micro
 
 This project can be configured completely in the [config.h](../master/ArduinoMicro/ArduinoRCDongle/config.h) file
 in the sketch folder. You can configure the pin, axis, joystick, minimum
