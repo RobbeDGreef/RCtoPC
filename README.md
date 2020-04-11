@@ -1,7 +1,5 @@
 # Arduino RC receiving dongle
 
-![RCtoPC logo](https://github.com/RobbeDGreef/RCtoPC/raw/master/extras/rctopclogo_small.png "RCtoPC logo")
-
 ## Info
 
 This project creates the possibility for everyone with
@@ -231,12 +229,7 @@ This project currently supports up to 4 channels.
 
 ## What else is on the agenda
 
-I just received my Arduino Micro so now I am also
-working on a plug an play version of this. So no
-driver installs and programs would be needed. Doesn't
-that sound great?
-
-Add multiple channels to make it possible for drone
+Adding multiple channels to make it possible for drone
 or airplane pilots to use this software.
 
 ## Communicate with me
