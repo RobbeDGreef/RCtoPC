@@ -13,7 +13,7 @@ rate than the normal dongle I used. :)
 
 **IMPORTANT: if you are thinking of buying an Arduino uno 
 specifically for driving with your RC transmitter on your computer instead
-of buying a RX dongle DON'T, read**[what Arduino would be perfect for this project alone](#What-Arduino-to-buy-specifically-for-this-project)
+of buying a RX dongle DON'T, read** [what Arduino would be perfect for this project alone](#What-Arduino-to-buy-specifically-for-this-project)
 
 ## Table of contents
 
@@ -210,7 +210,7 @@ or really want me to make a separate instructable about it. [Just ask me](#commu
 
 #### Configuration
 
-This project can be configured completely in the [config.h](../blob/master/ArduinoMicro/ArduinoRCDongle/config.h) file
+This project can be configured completely in the [config.h](../master/ArduinoMicro/ArduinoRCDongle/config.h) file
 in the sketch folder. You can configure the pin, axis, joystick, minimum
 and maximum values in here. It's pretty self explanatory but more info
 is found in the comment in the header file.
