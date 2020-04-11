@@ -32,6 +32,7 @@ of buying a RX dongle DON'T, read** [what Arduino would be perfect for this proj
 		* [What you'll need](#what-youll-need-for-the-arduino-micro)
 		* [Build process](#build-process-of-the-arduino-micro)
 		* [Configuration](#configuration-of-the-arduino-micro)
+* [How do I test if everything works](#how-do-i-test-if-everything-works)
 * [Known bugs](#known-bugs)
 * [What else is on the agenda](#what-else-is-on-the-agenda)
 * [Communicate with me](#communicate-with-me)
@@ -217,6 +218,14 @@ is found in the comment in the header file.
 
 This project currently supports up to 4 channels.
 
+
+## How do I test if everything works
+
+Well plug in your Arduino (obviously), turn on your rc transmitter
+and locate the joysticktest.exe program. Run it, select the correct
+joystick from the dropdown menu and test your system. If no green bar
+is moving and you've checked all the devices, start troubleshooting 
+because something is wrong :(
 
 ## Known bugs
 
