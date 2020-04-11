@@ -1,0 +1,23 @@
+Dongle:
+
+The R-USB rx4 SR hub shows up als "hid-compliant game controller" in device manager
+-> joystick
+
+Receiver:
+
+Spektrum 2.4 ghz DSM
+
+SR200 Sport surface receiver
+
+Receiver throttle:
+	from  916.00 hz (1091 microseconds)
+	idle  680-690hz (1460-1448 microseconds)
+	until 536 hz    (1868 microseconds)
+
+Steering:
+	from  (left)   919 hz (1088 microseconds)
+	idle	       677 hz (1475 microseconds)
+	until (right)  534 hz (1872 microseconds)
+
+sample fps of 9TURBO dongle:
+ 70-80 FPS
